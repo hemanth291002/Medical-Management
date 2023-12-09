@@ -1,0 +1,772 @@
+<html>
+
+<head>
+  <style>
+    .ssQIHO-checkbox-menu-item>span>span {
+      background-color: #000;
+      display: inline-block
+    }
+
+    @media (forced-colors:active),
+    (prefers-contrast:more) {
+      .ssQIHO-checkbox-menu-item>span>span {
+        background-color: ButtonText
+      }
+    }
+  </style>
+  <style>
+    .gm-style .gm-style-mtc label,
+    .gm-style .gm-style-mtc div {
+      font-weight: 400
+    }
+
+    .gm-style .gm-style-mtc ul,
+    .gm-style .gm-style-mtc li {
+      -webkit-box-sizing: border-box;
+      box-sizing: border-box
+    }
+
+    sentinel {}
+  </style>
+  <style>
+    .LGLeeN-keyboard-shortcuts-view {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -moz-box;
+      display: -ms-flexbox;
+      display: flex
+    }
+
+    .LGLeeN-keyboard-shortcuts-view table,
+    .LGLeeN-keyboard-shortcuts-view tbody,
+    .LGLeeN-keyboard-shortcuts-view td,
+    .LGLeeN-keyboard-shortcuts-view tr {
+      background: inherit;
+      border: none;
+      margin: 0;
+      padding: 0
+    }
+
+    .LGLeeN-keyboard-shortcuts-view table {
+      display: table
+    }
+
+    .LGLeeN-keyboard-shortcuts-view tr {
+      display: table-row
+    }
+
+    .LGLeeN-keyboard-shortcuts-view td {
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
+      display: table-cell;
+      color: #000;
+      padding: 6px;
+      vertical-align: middle;
+      white-space: nowrap
+    }
+
+    .LGLeeN-keyboard-shortcuts-view td:first-child {
+      text-align: end
+    }
+
+    .LGLeeN-keyboard-shortcuts-view td kbd {
+      background-color: #e8eaed;
+      border-radius: 2px;
+      border: none;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
+      color: inherit;
+      display: inline-block;
+      font-family: Google Sans Text, Roboto, Arial, sans-serif;
+      line-height: 16px;
+      margin: 0 2px;
+      min-height: 20px;
+      min-width: 20px;
+      padding: 2px 4px;
+      position: relative;
+      text-align: center
+    }
+  </style>
+  <style>
+    .gm-control-active>img {
+      -webkit-box-sizing: content-box;
+      box-sizing: content-box;
+      display: none;
+      left: 50%;
+      pointer-events: none;
+      position: absolute;
+      top: 50%;
+      -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      -o-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%)
+    }
+
+    .gm-control-active>img:nth-child(1) {
+      display: block
+    }
+
+    .gm-control-active:focus>img:nth-child(1),
+    .gm-control-active:hover>img:nth-child(1),
+    .gm-control-active:active>img:nth-child(1),
+    .gm-control-active:disabled>img:nth-child(1) {
+      display: none
+    }
+
+    .gm-control-active:focus>img:nth-child(2),
+    .gm-control-active:hover>img:nth-child(2) {
+      display: block
+    }
+
+    .gm-control-active:active>img:nth-child(3) {
+      display: block
+    }
+
+    .gm-control-active:disabled>img:nth-child(4) {
+      display: block
+    }
+  </style>
+  <link type="text/css" rel="stylesheet"
+    href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Google+Sans:400,500,700|Google+Sans+Text:400&amp;lang=en">
+  <link type="text/css" rel="stylesheet"
+    href="https://fonts.googleapis.com/css?family=Google+Sans+Text:400&amp;text=%E2%86%90%E2%86%92%E2%86%91%E2%86%93&amp;lang=en">
+  <style>
+    .gm-ui-hover-effect {
+      opacity: .6
+    }
+
+    .gm-ui-hover-effect:hover {
+      opacity: 1
+    }
+
+    .gm-ui-hover-effect>span {
+      background-color: #000
+    }
+
+    @media (forced-colors:active),
+    (prefers-contrast:more) {
+      .gm-ui-hover-effect>span {
+        background-color: ButtonText
+      }
+    }
+  </style>
+  <style>
+    .gm-style .gm-style-cc a,
+    .gm-style .gm-style-cc button,
+    .gm-style .gm-style-cc span,
+    .gm-style .gm-style-mtc div {
+      font-size: 10px;
+      -webkit-box-sizing: border-box;
+      box-sizing: border-box
+    }
+
+    .gm-style .gm-style-cc a,
+    .gm-style .gm-style-cc button,
+    .gm-style .gm-style-cc span {
+      outline-offset: 3px
+    }
+
+    sentinel {}
+  </style>
+  <style>
+    @media print {
+
+      .gm-style .gmnoprint,
+      .gmnoprint {
+        display: none
+      }
+    }
+
+    @media screen {
+
+      .gm-style .gmnoscreen,
+      .gmnoscreen {
+        display: none
+      }
+    }
+  </style>
+  <style>
+    .gm-style-moc {
+      background-color: rgba(0, 0, 0, .45);
+      pointer-events: none;
+      text-align: center;
+      -webkit-transition: opacity ease-in-out;
+      -o-transition: opacity ease-in-out;
+      transition: opacity ease-in-out
+    }
+
+    .gm-style-mot {
+      color: white;
+      font-family: Roboto, Arial, sans-serif;
+      font-size: 22px;
+      margin: 0;
+      position: relative;
+      top: 50%;
+      -o-transform: translateY(-50%);
+      transform: translateY(-50%);
+      -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%)
+    }
+
+    sentinel {}
+  </style>
+  <style>
+    .gm-style img {
+      max-width: none;
+    }
+
+    .gm-style {
+      font: 400 11px Roboto, Arial, sans-serif;
+      text-decoration: none;
+    }
+  </style>
+  <!-- Basic -->
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <!-- Mobile Metas -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- Site Metas -->
+  <meta name="keywords" content="">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <title> Medical Management </title>
+
+  <!-- bootstrap core css -->
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+
+  <!-- fonts style -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&amp;display=swap" rel="stylesheet">
+
+  <!--owl slider stylesheet -->
+  <link rel="stylesheet" type="text/css"
+    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+
+  <!-- font awesome style -->
+  <link href="css/font-awesome.min.css" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="css/style.css" rel="stylesheet">
+  <!-- responsive style -->
+  <link href="css/responsive.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link href="css/carousel.css" rel="stylesheet">
+
+
+  <!--<script type="text/javascript" charset="UTF-8"
+    src="https://maps.googleapis.com/maps-api-v3/api/js/54/6/common.js"></script>
+  <script type="text/javascript" charset="UTF-8"
+    src="https://maps.googleapis.com/maps-api-v3/api/js/54/6/util.js"></script>
+  <script type="text/javascript" charset="UTF-8"
+    src="https://maps.googleapis.com/maps-api-v3/api/js/54/6/map.js"></script>
+  <script type="text/javascript" charset="UTF-8"
+    src="https://maps.googleapis.com/maps-api-v3/api/js/54/6/onion.js"></script>
+  <script type="text/javascript" charset="UTF-8"
+    src="https://maps.googleapis.com/maps-api-v3/api/js/54/6/controls.js"></script>
+  <script type="text/javascript" charset="UTF-8"
+    src="https://maps.googleapis.com/maps-api-v3/api/js/54/6/marker.js"></script>-->
+  <script src="https://kit.fontawesome.com/6c526196ba.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+  <div class="hero_area">
+
+    <div class="hero_bg_box">
+      <img src="images/hero-bg.png" alt="">
+    </div>
+
+    <!-- header section strats -->
+    <header class="header_section">
+      <div class="container">
+        <nav class="navbar navbar-expand-lg custom_nav-container ">
+          <a class="navbar-brand" href="index.html">
+            <span>
+              Medical Management
+            </span>
+          </a>
+
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class=""> </span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav">
+              <li class="nav-item active">
+                <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html"> About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="shopping.html">Shopping</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="alarm.html">Alarm</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <!-- end header section -->
+    <!-- slider section -->
+    <section class="slider_section ">
+      <div id="customCarousel1" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="container ">
+              <div class="row">
+                <div class="col-md-7">
+                  <div class="detail-box">
+                    <h1>
+                      We Provide Best Healthcare
+                    </h1>
+                    <p>
+                      Explicabo esse amet tempora quibusdam laudantium, laborum eaque magnam fugiat hic? Esse dicta
+                      aliquid error repudiandae earum suscipit fugiat molestias, veniam, vel architecto veritatis
+                      delectus repellat modi impedit sequi.
+                    </p>
+                    <div class="btn-box">
+                      <a href="" class="btn1">
+                        Read More
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container ">
+              <div class="row">
+                <div class="col-md-7">
+                  <div class="detail-box">
+                    <h1>
+                      We Provide Best Healthcare
+                    </h1>
+                    <p>
+                      Explicabo esse amet tempora quibusdam laudantium, laborum eaque magnam fugiat hic? Esse dicta
+                      aliquid error repudiandae earum suscipit fugiat molestias, veniam, vel architecto veritatis
+                      delectus repellat modi impedit sequi.
+                    </p>
+                    <div class="btn-box">
+                      <a href="" class="btn1">
+                        Read More
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container ">
+              <div class="row">
+                <div class="col-md-7">
+                  <div class="detail-box">
+                    <h1>
+                      We Provide Best Healthcare
+                    </h1>
+                    <p>
+                      Explicabo esse amet tempora quibusdam laudantium, laborum eaque magnam fugiat hic? Esse dicta
+                      aliquid error repudiandae earum suscipit fugiat molestias, veniam, vel architecto veritatis
+                      delectus repellat modi impedit sequi.
+                    </p>
+                    <div class="btn-box">
+                      <a href="" class="btn1">
+                        Read More
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <ol class="carousel-indicators">
+          <li data-target="#customCarousel1" data-slide-to="0" class="active"></li>
+          <li data-target="#customCarousel1" data-slide-to="1" class=""></li>
+          <li data-target="#customCarousel1" data-slide-to="2" class=""></li>
+        </ol>
+      </div>
+
+    </section>
+    <!-- end slider section -->
+  </div>
+  <!--card carousel-->
+  <div id="carouselExampleControls" class="carousel carousel-dark  slide" data-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <div class="cards-wrapper">
+          <div class="card">
+            <img src="images/card-images/cd3.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">D3 Vitamin</h5>
+              <p class="card-text">Vitamin D3 is used in the treatment of vitamin D deficiency and osteoporosis. It
+                helps the body to absorb calcium. Calcium is essential for maintaining strong and healthy bone.</p>
+              <a href="https://www.webmd.com/drugs/2/drug-10175/vitamin-d3-oral/details" class="btn btn-primary">Read
+                More</a>
+            </div>
+          </div>
+          <div class="card d-none d-md-block">
+            <img src="images/card-images/insulin.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Insulin</h5>
+              <p class="card-text">Insulin Isophane is used to improve blood sugar control in adults and children with
+                type 1 and type 2 diabetes mellitus.</p>
+              <a href="https://my.clevelandclinic.org/health/articles/22601-insulin" class="btn btn-primary">Read
+                More</a>
+            </div>
+          </div>
+          <div class="card d-none d-md-block">
+            <img src="images/card-images/asprin.webp" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Asprin</h5>
+              <p class="card-text">Aspirin is an antiplatelet medicine used to treat and prevent heart attacks, strokes,
+                and heart-related chest pain (angina). It is a very widely used medicine for heart protection.</p>
+              <a href="https://www.webmd.com/drugs/2/drug-1082-3/aspirin-oral/aspirin-oral/details"
+                class="btn btn-primary">Read More</a>
+            </div>
+          </div>
+          <div class="card d-none d-md-block">
+            <img src="images/card-images/az.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Azithromycin</h5>
+              <p class="card-text">Azithromycin is an antibiotic used to treat various types of infections of the
+                respiratory tract, ear, skin and eye in adults and children. It is also effective in typhoid fever.</p>
+              <a href="https://www.nhs.uk/medicines/azithromycin/about-azithromycin/#:~:text=Azithromycin%20is%20an%20antibiotic%20medicine,such%20as%20sinus%20infection%20(sinusitis)"
+                class="btn btn-primary">Read More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <div class="cards-wrapper">
+          <div class="card">
+            <img src="images/card-images/cetrizine.jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Cetrizine</h5>
+              <p class="card-text"> It is used to treat various allergic conditions such as hay fever, conjunctivitis
+                and some skin reactions, and reactions to bites and stings.</p>
+              <a href="https://www.ncbi.nlm.nih.gov/books/NBK549776/#:~:text=Cetirizine%20is%20a%20medication%20used,over%2Dthe%2Dcounter%20medication."
+                class="btn btn-primary">Read More</a>
+            </div>
+          </div>
+          <div class="card d-none d-md-block">
+            <img src="images/card-images/vitamine.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Vitamin-E</h5>
+              <p class="card-text">Vitamin E is a medicine used in the treatment of vitamin E deficiency. It is an
+                antioxidant and helps to protect the cells from the damage caused by free radicals. </p>
+              <a href="https://www.hsph.harvard.edu/nutritionsource/vitamin-e/" class="btn btn-primary">Read More</a>
+            </div>
+          </div>
+          <div class="card d-none d-md-block">
+            <img src="images/card-images/vitaminc.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Vitamin-C</h5>
+              <p class="card-text">Vitamin C is touted for its many health benefits: It boosts immunity, improves heart
+                health, bolsters iron absorption.</p>
+              <a href="https://www.hsph.harvard.edu/nutritionsource/vitamin-c/" class="btn btn-primary">Read More</a>
+            </div>
+          </div>
+          <div class="card d-none d-md-block">
+            <img src="images/card-images/pc.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Paracetamol</h5>
+              <p class="card-text">Paracetamol is a widely prescribed medicine that helps to ease pain and bring down
+                high body temperature (fever). .</p>
+              <a href="https://www.nhsinform.scot/tests-and-treatments/medicines-and-medical-aids/types-of-medicine/paracetamol/#:~:text=Introduction-,Introduction,such%20as%20colds%20and%20flu."
+                class="btn btn-primary">Read More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+  <!-- contact section -->
+
+  <div class="specials my-5 text-center">
+    <div class="container">
+      <diV class="grid">
+        <div class="row">
+          <i class="fa fa-briefcase-medical fa-4x text-secondary"></i>
+          <p class="h2 fw-bold my-2">First Aid</p>
+          <p class="lead fst-italic">In times of need, first aid stands by,
+            Providing care when medical help is shy.
+            From minor cuts to life-threatening pain,
+            First aid knowledge can ease the strain.</p>
+        </div>
+        <div class="row">
+          <i class="fa fa-capsules fa-4x text-warning"></i>
+          <p class="h2 fw-bold my-2">Medicion</p>
+          <p class="lead fst-italic">Medicine is the science and practice of caring for a patient, managing the
+            diagnosis, prognosis, prevention, treatment,getting in take medicion by PharmBelief</p>
+        </div>
+        <div class="row">
+          <i class="fa fa-hand-holding-medical fa-4x text-success"></i>
+          <p class="h2 fw-bold my-2">Care Taking</p>
+          <p class="lead fst-italic">In hospitals, care is the key,
+            To healing the sick and setting them free.
+            From monitoring vitals to administering meds,
+            Dedicated caregivers fulfill all needs.</p>
+        </div>
+      </diV>
+    </div>
+  </div>
+
+
+  <!-- end contact section -->
+
+  <!-- client section -->
+
+  <section class="client_section layout_padding-bottom">
+    <div class="container">
+      <div class="heading_container heading_center ">
+        <h2>
+          Testimonial
+        </h2>
+      </div>
+      <div id="carouselExample2Controls" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item">
+            <div class="row">
+              <div class="col-md-11 col-lg-10 mx-auto">
+                <div class="box">
+                  <div class="img-box">
+                    <img src="images/U20AI022.jpg" alt="">
+                  </div>
+                  <div class="detail-box">
+                    <div class="name">
+                      <h6>
+                        Hemanth Reddy
+                      </h6>
+                    </div>
+                    <p>
+                      Hey! My name is K.hemanthreddy. I Have more relevent skill on Backend Deployment.
+                      Which is used to deployed in the localhost in the system with the port num.
+                      Connection with mongooes Data base which is used to store the data in the sys.
+                    </p>
+                    <i class="fa fa-quote-left" aria-hidden="true"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-item active">
+            <div class="row">
+              <div class="col-md-11 col-lg-10 mx-auto">
+                <div class="box">
+                  <div class="img-box">
+                    <img src="images/pass.png" alt="">
+                  </div>
+                  <div class="detail-box">
+                    <div class="name">
+                      <h6>
+                        K Phani
+                      </h6>
+                    </div>
+                    <p>
+                      Hey! My name is K Phani. I Have more relevent skill on Front-End Development.
+                      Which is used to deployed in the localhost in the system with the port num.
+                      Connection with mongooes Data base which is used to store the data in the sys.
+                    </p>
+                    <i class="fa fa-quote-left" aria-hidden="true"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- <div class="carousel-item active">
+            <div class="row">
+              <div class="col-md-11 col-lg-10 mx-auto">
+                <div class="box">
+                  <div class="img-box">
+                    <img src="images/U20AI039.jpg" alt="">
+                  </div>
+                  <div class="detail-box">
+                    <div class="name">
+                      <h6>
+                        Alan Emerson
+                      </h6>
+                    </div>
+                    <p>
+                      Enim consequatur odio assumenda voluptas voluptatibus esse nobis officia.
+                      Magnam,
+                      aspernatur
+                      nostrum explicabo, distinctio laudantium delectus deserunt quia quidem magni
+                      corporis earum
+                      inventore totam consectetur corrupti! Corrupti, nihil sunt? Natus.
+                    </p>
+                    <i class="fa fa-quote-left" aria-hidden="true"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div> -->
+
+          <div class="carousel-item">
+            <div class="row">
+              <div class="col-md-11 col-lg-10 mx-auto">
+                <div class="box">
+                  <div class="img-box">
+                    <img src="images/om.jpg" alt="">
+                  </div>
+                  <div class="detail-box">
+                    <div class="name">
+                      <h6>
+                        Ch Omkar Naidu
+                      </h6>
+                    </div>
+                    <p>
+                      Hey! My name is ch Omkar Naidu. I Have more relevent skill on Deployment.
+                      Which is used to deployed in the localhost in the system with the port num.
+                      Connection with mongooes Data base which is used to store the data in the sys.
+                    </p>
+                    <i class="fa fa-quote-left" aria-hidden="true"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel_btn-container">
+          <a class="carousel-control-prev" href="#carouselExample2Controls" role="button" data-slide="prev">
+            <i class="fa fa-long-arrow-left" aria-hidden="true"></i>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExample2Controls" role="button" data-slide="next">
+            <i class="fa fa-long-arrow-right"></i>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- end client section -->
+
+  <!-- footer section -->
+  <footer class="footer_section">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 col-lg-3 footer_col">
+          <div class="footer_contact">
+            <h4>
+              Reach at..
+            </h4>
+            <div class="contact_link_box">
+              <a href="">
+                <i class="fa fa-map-marker" aria-hidden="true"></i>
+                <span>
+                  Location
+                </span>
+              </a>
+              <a href="">
+                <i class="fa fa-phone" aria-hidden="true"></i>
+                <span>
+                  Call +91 1234567890
+                </span>
+              </a>
+              <a href="">
+                <i class="fa fa-envelope" aria-hidden="true"></i>
+                <span>
+                  project@gmail.com
+                </span>
+              </a>
+            </div>
+          </div>
+          <div class="footer_social">
+            <a href="">
+              <i class="fa fa-facebook" aria-hidden="true"></i>
+            </a>
+            <a href="">
+              <i class="fa fa-twitter" aria-hidden="true"></i>
+            </a>
+            <a href="">
+              <i class="fa fa-linkedin" aria-hidden="true"></i>
+            </a>
+            <a href="">
+              <i class="fa fa-instagram" aria-hidden="true"></i>
+            </a>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3 footer_col">
+          <div class="footer_detail">
+            <h4>
+              About
+            </h4>
+            <p>
+              We are dedicated to providing top-quality medical supplies and personalized service to
+              our
+              customers.We
+              understand the importance of easy access to healthcare products and strive to make your
+              medical shopping
+              experience convenient and hassle-free.
+            </p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-2 mx-auto footer_col">
+          <div class="footer_link_box">
+            <h4>
+              Links
+            </h4>
+            <div class="footer_links">
+              <a class="active" href="index.html">
+                Home
+              </a>
+              <a class="" href="about.html">
+                About
+              </a>
+              <a class="" href="shopping.html">
+                Shopping
+              </a>
+              <a class="" href="alarm.html">
+                Alarm
+              </a>
+              <a class="" href="contact.html">
+                Contact Us
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- footer section -->
+  <!-- jQery -->
+  <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+  <script type="text/javascript" src="js/bootstrap.js"></script>
+  <!-- popper js -->
+  <!--<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    </script>-->
+  <!-- owl slider -->
+  <!--<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js">
+  </script>-->
+  <!-- custom js -->
+  <script type="text/javascript" src="js/custom.js"></script>
+
+
+
+</body>
+
+</html>
